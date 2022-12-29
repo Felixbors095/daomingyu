@@ -1,0 +1,34 @@
+.Title a:hover {
+    opacity: .8;
+}
+.Title input {
+    width: 100px;
+    height: 2.2rem;
+    text-indent: 1rem;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    margin: auto;
+}
+.Title button:active {
+    transform: scale(0.95,0.95);
+}
+.Title button {
+    padding: 0.4rem 1rem;
+    background: #417dff;
+    color: white;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    width: 5rem;
+    border-radius: 8px;
+    transition: all 100ms ease-in;
+    margin: auto;
+    font-size: 0.6rem;
+    padding: 0.5rem 0;
+}
+.erro{
+    color: red;
+}

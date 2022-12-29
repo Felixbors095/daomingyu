@@ -1,0 +1,112 @@
+body{
+  background-image: url(https://cn.bing.com/images/trending?form=Z9LH);
+}
+@keyframes mainshow2 {
+    from {opacity: 0;}to {opacity: 1;}
+    from {right: 200px;}to {right: 0px;}
+  }
+  @keyframes mainshow {
+    from {opacity: 0;}to {opacity: 1;}
+    from {width: 0px;}to {width: 200px;}
+  }
+.Title a:hover {
+    opacity: .8;
+}
+.Title input {
+    width: 300px;
+    height: 2.2rem;
+    text-indent: 1rem;
+    border: 3px solid rgb(0, 170, 255);
+    border-radius: 9px;
+    outline: none;
+    margin: 100px;
+    animation-name: mainshow;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+}
+.SearchTitle{
+  text-indent: 1rem;
+  color: #2196F3;
+  outline: none;
+  margin: 100px;
+  animation-name: mainshow2;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+}
+.Title button:active {
+    transform: scale(0.95,0.95);
+    animation-name: mainshow;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+}
+.Title button {
+    padding: 0.4rem 1rem;
+    background: #417dff;
+    color: white;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    width: 5rem;
+    border-radius: 8px;
+    transition: all 100ms ease-in;
+    margin: auto;
+    font-size: 0.6rem;
+    padding: 0.5rem 0;
+    
+}
+.erro{
+    color: red;
+    animation-name: mainshow;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+}
+.logo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;
+    right:0;
+    bottom:10;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: rgb(74, 71, 71);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    color: #2196F3;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
+  @keyframes damove {
+    from {height: 0px;}to {height: 0px;}
+  }
+  .li{
+    position: relative;
+    animation-name: mainshow;
+    animation-duration: 3.1s;  
+    animation-fill-mode: forwards;
+  }
+  @keyframes cov01e {
+    from {height: 0px;}to {height: 380px;}
+  }
+  .logo-m{
+    position: relative;
+    animation-name: cov01e;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;
+    right:10;
+    bottom:0;
+  }
